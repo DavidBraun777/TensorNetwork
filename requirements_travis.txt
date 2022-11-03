@@ -4,3 +4,4 @@ pytest
 torch>=1.1
 jax>=0.1.0
 jaxlib>=0.1.27
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
