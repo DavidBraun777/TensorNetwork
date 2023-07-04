@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.10
 
 # Install basic tools.
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
