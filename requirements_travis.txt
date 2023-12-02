@@ -4,3 +4,5 @@ pytest
 torch>=1.1
 jax>=0.1.0
 jaxlib>=0.1.27
+networkx>=2.6 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.21.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
