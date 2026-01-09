@@ -1,6 +1,7 @@
 tensorflow>=2.0.0
 pytype==2019.06.21
 pytest
-torch>=1.1
+torch>=2.9.0
 jax>=0.1.0
 jaxlib>=0.1.27
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
